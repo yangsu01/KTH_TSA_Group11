@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python src/step1_load_data.py)",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(python -m pytest tests/test_step1.py -v)"
+    ]
+  }
+}
